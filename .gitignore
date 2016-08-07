@@ -4,3 +4,4 @@ pkg/
 .svn/
 .gems/
 .bundle/
+*.swp

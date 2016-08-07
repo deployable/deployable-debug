@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.author           = "Deployable - Matt Hoyle"
   s.email            = "code@deployable.co"
   s.homepage         = "http://code.deployable.co"
-  s.license          = 'Apache'
+  s.license          = 'Apache-2.0'
 
-  %w(rspec-core rspec-expectations rspec-mocks).each { |gem| s.add_development_dependency gem, "~> 3.5.0" }
-  s.add_development_dependency "pry-byebug", "~> 3.4.0"
+  %w(rspec-core rspec-expectations rspec-mocks).each { |gem| s.add_development_dependency gem, "~> 3.5" }
+  s.add_development_dependency "pry-byebug", "~> 3.4"
 
 #  s.bindir       = "bin"
 #  s.executables  = %w( debug )

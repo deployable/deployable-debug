@@ -1,3 +1,5 @@
+require "deployable/debug/version"
+
 $debug = false
 $trace = false
 

@@ -33,10 +33,10 @@ PLATFORMS
 
 DEPENDENCIES
   deployable-debug!
-  pry-byebug (~> 3.4.0)
-  rspec-core (~> 3.5.0)
-  rspec-expectations (~> 3.5.0)
-  rspec-mocks (~> 3.5.0)
+  pry-byebug (~> 3.4)
+  rspec-core (~> 3.5)
+  rspec-expectations (~> 3.5)
+  rspec-mocks (~> 3.5)
 
 BUNDLED WITH
    1.12.5
