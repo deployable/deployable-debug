@@ -1,6 +1,11 @@
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'deployable/debug/version'
+
 Gem::Specification.new do |s|
   s.name             = 'deployable-debug'
-  s.version          = '0.1.0'
+  s.version          = Deployable::Debug::VERSION
   s.date             = '2016-08-06'
 
   s.platform         = Gem::Platform::RUBY
