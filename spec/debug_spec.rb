@@ -1,6 +1,6 @@
 require 'spec_helper'
 require_relative '../lib/deployable/debug'
-require_relative '../lib/deployable/version'
+require_relative '../lib/deployable/debug/version'
 
 
 describe Deployable::Debug do
